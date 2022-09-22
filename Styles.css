@@ -28,6 +28,7 @@ a {
 h1 {
   font-family: "DynaPuff", cursive;
   font-size: 20px;
+  text-align: center;
 }
 #capa {
   position: fixed;
@@ -76,6 +77,7 @@ footer {
   align-items: center;
   flex-direction: column;
   height: 85vh;
+  width: 100vw;
   gap: 10px;
 }
 .containerButton {
