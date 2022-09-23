@@ -11,7 +11,7 @@ body {
   height: 100vh;
   min-width: 280px;
   max-width: 1440px;
-  background-image: url(./assets/fotoFondoOriginal.jpg);
+  background-image: url(./fotoFondoOriginal.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,6 +30,9 @@ h1 {
   font-size: 20px;
   text-align: center;
 }
+h2 {
+  text-align: center;
+}
 #capa {
   position: fixed;
   top: -15vh;
@@ -39,7 +42,7 @@ h1 {
 #capa .nieve {
   position: absolute;
   background-image: linear-gradient(transparent, transparent),
-    url(./assets/maripositas.png);
+    url(./maripositas.png);
   background-size: cover;
   top: 0;
   left: 0;
@@ -64,10 +67,10 @@ button:hover {
 footer {
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
+  width: 100vw;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 20px;
   height: 15vh;
   font-family: "DynaPuff", cursive;
 }
